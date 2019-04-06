@@ -10,7 +10,7 @@ Using news and Internet articles, find examples of real security incidents (e.g.
 # Viewing HTTPS Certificate Details
 Find 3 websites that use HTTPS. On each website, using Google Chrome, click on the lock icon next to the "https" in the URL and view the certificate used to secure the connection with the website. For each website that you do this for, list the trust chain (e.g., signers) up to the root.
 
-# Create an Key Pair
+# Create a Key Pair
 
 Research how to create an RSA key pair on your computer. Generate an RSA key pair in the format of your choosing and post the public key.
 
@@ -42,7 +42,11 @@ Alternatively, if you are unable to find a project with a dependency affected by
 
 # Security Audit
 
-Pick a Vanderbilt web application (e.g., YES, People Finder) and analyze the inputs that it receives. Create a catalog of these inputs (who, what, where, when) per the lectures. For each input, do you see evidence that it is sanitized? Do you believe the input is passed on to other users or systems?  Who can provide each input and under what circumstances (don't forget to consider "anonymous" as an unauthenticated user). Make sure and include 2-3 paragraph overview of the Vanderbilt system that you analyzed and how you performed your analysis. Do NOT run any automated tools against any of these services. Your analysis should be done manually and based on inspecting any data / code returned to your browser client.
+Pick a Vanderbilt web application (e.g., YES, People Finder) and analyze the inputs that it receives. Create a catalog of these inputs (who, what, where, when) per the lectures. For each input, how would you sanitize it? Do you believe the input is passed on to other users or systems?  Who can provide each input and under what circumstances (don't forget to consider "anonymous" as an unauthenticated user). 
+
+Your analysis should be done manually and based solely on what you can see visually in the user interface, source of any web pages, or network requests listed in Chrome Developer Tools. Do NOT run any automated tools against any of these services. Do NOT attempt to send malformed or malicious input to the system. Do NOT do anything to disrupt the system. 
+
+Make sure and include 2-3 paragraph overview of the Vanderbilt system that you analyzed and how you performed your analysis. 
 
 # Data Ownership
 
