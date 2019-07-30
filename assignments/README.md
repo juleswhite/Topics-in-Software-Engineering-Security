@@ -64,12 +64,13 @@ The grade will be based on the following components:
 
 Each vulnerability demonstration will be assessed based on the following criteria:
 
-(20pts) The vulnerability listed is correctly demonstrated
-(20pts) The vulnerability demonstration is well integrated into the functionality of the application
-(10pts) The vulnerability is correctly documented in the vulnerability.md file
-(10pts) The vulnerability can be reproduced from the provided documentation
-(10pts) The lines of source code that create the vulnerability are described in sufficient detail
-(30pts) Overall quality of the vulnerability demonstrations and their documentation
+ - (20pts) The vulnerability listed is correctly demonstrated
+ - (20pts) The vulnerability demonstration is well integrated into the functionality of the application
+ - (10pts) The vulnerability is correctly documented in the vulnerability.md file
+ - (10pts) The vulnerability can be reproduced from the provided documentation
+ - (10pts) The lines of source code that create the vulnerability are described in sufficient detail
+ - (30pts) Overall quality of the vulnerability demonstrations and their documentation
+ 
 You should preference high-quality demonstrations with excellent documentation.
 
 # Assignment 3
@@ -136,12 +137,13 @@ The grade will be based on the following components:
 
 Each vulnerability demonstration will be assessed based on the following criteria:
 
-(20pts) The vulnerability listed is correctly demonstrated
-(20pts) The vulnerability demonstration is well integrated into the functionality of the application
-(10pts) The vulnerability is correctly documented in the vulnerability.md file
-(10pts) The vulnerability can be reproduced from the provided documentation
-(10pts) The lines of source code that create the vulnerability are described in sufficient detail
-(30pts) Overall quality of the vulnerability demonstrations and their documentation
+ - (20pts) The vulnerability listed is correctly demonstrated
+ - (20pts) The vulnerability demonstration is well integrated into the functionality of the application
+ - (10pts) The vulnerability is correctly documented in the vulnerability.md file
+ - (10pts) The vulnerability can be reproduced from the provided documentation
+ - (10pts) The lines of source code that create the vulnerability are described in sufficient detail
+ - (30pts) Overall quality of the vulnerability demonstrations and their documentation
+ 
 You should preference high-quality demonstrations with excellent documentation.
 
 # Assignment 4
@@ -231,12 +233,13 @@ The grade will be based on the following components:
 
 Each vulnerability demonstration will be assessed based on the following criteria:
 
-(20pts) The vulnerability listed is correctly demonstrated
-(20pts) The vulnerability demonstration is well integrated into the functionality of the application
-(10pts) The vulnerability is correctly documented in the vulnerability.md file
-(10pts) The vulnerability can be reproduced from the provided documentation
-(10pts) The lines of source code that create the vulnerability are described in sufficient detail
-(30pts) Overall quality of the vulnerability demonstrations and their documentation
+ - (20pts) The vulnerability listed is correctly demonstrated
+ - (20pts) The vulnerability demonstration is well integrated into the functionality of the application
+ - (10pts) The vulnerability is correctly documented in the vulnerability.md file
+ - (10pts) The vulnerability can be reproduced from the provided documentation
+ - (10pts) The lines of source code that create the vulnerability are described in sufficient detail
+ - (30pts) Overall quality of the vulnerability demonstrations and their documentation
+ 
 You should preference high-quality demonstrations with excellent documentation.
 
 
