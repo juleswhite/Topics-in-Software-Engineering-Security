@@ -20,7 +20,7 @@ Log into Vanderbilt's YES system. Open the Chrome Developer Tools with View->Dev
 
 # Identity
 
-Perform an audit of Vanderbilt's YES application. What are the ways that it establishes identity? What sensitive identity information does it display? What sensitive identity information is embedded in the HTML the application returns?
+Perform an audit of Vanderbilt's YES application. What are the ways that it establishes identity? What are the inputs that it uses to represent identity?
 
 You can use Chrome's developer tools to perform this audit. Open YES and go to View->Developer->View Source to view the HTML source. Try searching for words like "id", your name, etc.
 
@@ -38,7 +38,7 @@ Examine the NPM, Ruby, Java, Python, Go, or other libraries installed on your ma
 
 Your goal is to find an open source project that has at least one dependency with a CVE disclosure. Once you have found a project with a vulnerability in a dependency, submit a 2-3 paragraph description of the project, the dependency, and the vulnerability. Include a link to the project and the CVE.
 
-Alternatively, if you are unable to find a project with a dependency affected by a CVE, you can submit a list of 5 projects that you audited. For each project, provide a link to the project, a link to any  file(s) that specify dependencies, and a list of all dependencies / versions used by the project. You must choose projects that each have at least 10 dependencies.
+Alternatively, if you are unable to find a project with a dependency affected by a CVE, you can submit a list of 3 projects that you audited. For each project, provide a link to the project, a link to any  file(s) that specify dependencies, and a list of all dependencies / versions used by the project. You must choose projects that each have at least 10 dependencies.
 
 # Security Audit
 
@@ -54,11 +54,11 @@ Analyze Vanderbilt's YES application. What are the core pieces of data that are 
 
 # Source Code Analysis
 
-Audit the source code and dependencies of an application that you wrote or an open source application. Provide a 3+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
+Audit the source code and dependencies of an application that you wrote or an open source application. Provide a 6+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
 
 # Source Code Analysis II
 
-Audit the source code and dependencies of an application that you wrote or an open source application. Provide a 3+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
+Audit the source code, dependencies, and design of an application that you wrote or an open source application. Provide a 6+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
 
 # Identifying Development Mistakes
 
