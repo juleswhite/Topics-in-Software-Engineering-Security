@@ -20,19 +20,19 @@ Log into Vanderbilt's YES system. Open the Chrome Developer Tools with View->Dev
 
 # Identity
 
-Perform an audit of Vanderbilt's YES application. What are the ways that it establishes identity? What sensitive identity information does it display? What sensitive identity information is embedded in the HTML the application returns? Does the way that YES maintains identity open users up to any types of attack?
+Perform an audit of Vanderbilt's YES application. What are the ways that it establishes identity? What sensitive identity information does it display? What sensitive identity information is embedded in the HTML the application returns?
 
 You can use Chrome's developer tools to perform this audit. Open YES and go to View->Developer->View Source to view the HTML source. Try searching for words like "id", your name, etc.
 
 # Identify Software & Libraries in Use
 
-Create a catalog of your own software usage. List at least 20 software applications or services that you use and their exact version identifier.  For each software application / service, list the latest known version. For each version that you use, list any known vulnerabilities. If you upgrade an application as a result of this audit, list the version before the upgrade and the vulnerabilities that were present.
+Create a catalog of your own software usage. List at least 3 software applications or services that you use and their exact version identifier.  For each software application / service, list the latest known version. For each version that you use, list any known vulnerabilities. If you upgrade an application as a result of this audit, list the version before the upgrade and the vulnerabilities that were present.
 
 In addition to your software list, provide a catalog of the devices in your house or room that include software. For each device, list as many details about the software that it runs, such as OS version. List the latest version for each piece of software. If you do not know, label the device with "unknown threats."
 
 # Risk Self-assessment
 
-Examine the NPM, Ruby, Java, Python, Go, or other libraries installed on your machine. List 10 of these dependencies that you find. For each, list the version number and whether or not there are any known CVEs. Can you guarantee that you do not have any vulnerable libraries on your personal computer with CVEs or that could have executed malicious code?
+Examine the NPM, Ruby, Java, Python, Go, or other libraries installed on your machine. List 5 of these dependencies that you find. For each, list the version number and whether or not there are any known CVEs. Can you guarantee that you do not have any vulnerable libraries on your personal computer with CVEs or that could have executed malicious code?
 
 # Dependency Audit
 
@@ -42,23 +42,23 @@ Alternatively, if you are unable to find a project with a dependency affected by
 
 # Security Audit
 
-Pick a Vanderbilt web application (e.g., YES, People Finder) and analyze the inputs that it receives. Create a catalog of these inputs (who, what, where, when) per the lectures. For each input, how would you sanitize it? Do you believe the input is passed on to other users or systems?  Who can provide each input and under what circumstances (don't forget to consider "anonymous" as an unauthenticated user). 
+Pick an open source application and analyze the inputs that it receives. Create a catalog of these inputs (who, what, where, when) per the lectures. For each input, how would you sanitize it? Do you believe the input is passed on to other users or systems?  Who can provide each input and under what circumstances (don't forget to consider "anonymous" as an unauthenticated user). 
 
-Your analysis should be done manually and based solely on what you can see visually in the user interface, source of any web pages, or network requests listed in Chrome Developer Tools. Do NOT run any automated tools against any of these services. Do NOT attempt to send malformed or malicious input to the system. Do NOT do anything to disrupt the system. 
+Your analysis should be done manually and based solely on what you can see visually in the user interface, source of the application, or network requests listed in Chrome Developer Tools. Do NOT run any automated tools against any services. Do NOT attempt to send malformed or malicious input to a system. Do NOT do anything to disrupt a running system. 
 
-Make sure and include 2-3 paragraph overview of the Vanderbilt system that you analyzed and how you performed your analysis. 
+Make sure and include 2-3 paragraph overview of the system that you analyzed and how you performed your analysis. 
 
 # Data Ownership
 
-Analyze Vanderbilt's YES application. What are the core pieces of data that are in the system? Who can read/write each piece of data? Write a design for a role-based access control system for YES. Your description should include roles for all of the different users of YES, ranging from students to administrators.
+Analyze Vanderbilt's YES application. What are the core pieces of data that are in the system? Who can read/write each piece of data? Write a design for a role-based access control system for YES. Your description should include roles for a variety of users of YES, ranging from students to administrators.
 
 # Source Code Analysis
 
-Analyze the provided source code and write a report on its security. Is the application secure? Why or why not?
+Audit the source code and dependencies of an application that you wrote or an open source application. Provide a 3+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
 
 # Source Code Analysis II
 
-Analyze the provided source code and write a report on its security. Is the application secure? Why or why not?
+Audit the source code and dependencies of an application that you wrote or an open source application. Provide a 3+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
 
 # Identifying Development Mistakes
 
