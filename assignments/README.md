@@ -43,9 +43,9 @@ path is as follows:
 The vulnerability can be exploited by following the steps below:
 
 1. Using curl, send the following request to the server:
-   ```
+   
    curl -XGET http://localhost:8080/foo/bar -d '; ls'
-   ```
+   
 2. The server should send back a String that includes a list of the files in the 
    directory where the server is running, including an entry for "build.gradle", which
    is a sensitive internal file.
@@ -115,9 +115,9 @@ path is as follows:
 The vulnerability can be exploited by following the steps below:
 
 1. Using curl, send the following request to the server:
-   ```
+  
    curl -XGET http://localhost:8080/foo/bar -d '; ls'
-   ```
+   
 2. The server should send back a String that includes a list of the files in the 
    directory where the server is running, including an entry for "build.gradle", which
    is a sensitive internal file.
