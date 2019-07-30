@@ -6,8 +6,6 @@ An important component of software security is learning to identify vulnerabilit
 
 This assignment is designed to help you to learn the patterns of vulnerabilities in different software aspects by exposing you to both the creation and identification of vulnerabilities in a variety of code bases. You will both produce demonstrations of real vulnerabilities and try to identify the vulnerabilities created by others. Both production and identification of vulnerabilities can be deceptively challenging - do not understimate the difficulty of this assignment.
 
-This assignment will have two parts. For the first part of the assignment, you will produce a web application that is vulnerable to the vulnerabilities listed in the "Vulnerabilities to Demonstrate" section. In the second part of the assignment, you will try to identify the vulnerabilities produced by your peers.
-
 ## Vulnerabilities to Demonstrate
 For this assignment, you need to demonsrate at least two injection attack vulnerabilities.
 
