@@ -2,6 +2,12 @@
 
 # Assignment 2
 
+## Due Date
+
+This assignment is due five hours before the third live session.
+
+## Overview
+
 An important component of software security is learning to identify vulnerabilities in source code, development processes, usage, and other software aspects. Developers gain exposure to vulnerabilities through their career by seeing vulnerabilities in peer code, learning about vulnerabilities in software, and receiving feedback about vulnerabilities in their own code. Building up experience to be able to effectively spot and fix key vulnerabilities takes time.
 
 This assignment is designed to help you to learn the patterns of vulnerabilities in different software aspects by exposing you to both the creation and identification of vulnerabilities in a variety of code bases. You will both produce demonstrations of real vulnerabilities and try to identify the vulnerabilities created by others. Both production and identification of vulnerabilities can be deceptively challenging - do not understimate the difficulty of this assignment.
