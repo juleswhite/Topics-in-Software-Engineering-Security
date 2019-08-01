@@ -86,6 +86,6 @@ Pick a cyber-security incident that was reported on in the news that demonstrate
 
 # Assess Cloud Security
 
-TODO
+Using news and Internet articles, find examples of real security incidents (e.g., the Citibank breach) for three *different* cloud security mistakes. Once you have found a real-world security incident stemming from each type of mistake, write a 2-paragraph (or more if you choose) summary of the incident that describes what happened, specifies how that type of mistake manifested in the incident, and includes what the impact of the incident was.
 
 # Security Analysis
