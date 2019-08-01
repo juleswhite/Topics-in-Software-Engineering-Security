@@ -2,7 +2,7 @@
 
 ## Due Date
 
-This assignment is due before the first synchronous session. Please email the instructor if you have trouble with the assignment.
+This assignment is due before the first live session. Please email the instructor if you have trouble with the assignment.
 
 ## Instructions 
 
