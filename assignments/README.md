@@ -1,5 +1,188 @@
 # Assignment 1
 
+## Due Date
+
+This assignment is due before the first synchronous session. Please email the instructor if you have trouble with the assignment.
+
+## Instructions 
+
+This assignment requires a lot of development environment set up work. You should start early. Almost all future assignments will build off of this set up work. Future assignments will assume and require that you completed this assignment successfully.
+
+Look at the announcements in the course learning management system for the link to the codegen.jar file.
+
+Complete all of the steps listed below and then submit the items listed in the last step.
+
+1. Download and install Eclipse (https://www.eclipse.org/) and Google Chrome
+2. Install the Eclipse M2E plugin: https://www.eclipse.org/m2e/ or from the Marketplace: https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer
+Clone the Git repository: git@github.com:knowm/XDropWizard.git
+Remove the following lines from the pom.xml file:
+
+```
+<!--for Java code formatting -->
+ <plugin>
+   <groupId>com.coveo</groupId>
+   <artifactId>fmt-maven-plugin</artifactId>
+   <version>2.9</version>
+   <configuration>
+     <filesNamePattern>.*\.java</filesNamePattern>
+     <skip>false</skip>
+   </configuration>
+   <executions>
+     <execution>
+       <goals>
+         <goal>format</goal>
+       </goals>
+     </execution>
+   </executions>
+ </plugin>
+```
+3. Import the project into Eclipse using File->Import->Maven->Existing Maven Projects
+4. Create a new Java Application run configuration that passes the arguments "server xdropwizard.yml" to the main class: "org.knowm.xdropwizard.XDropWizardApplication"
+5. Run the new configuration and make sure that you can access http://localhost:9090
+6. Stop the configuration in the console by hitting the red square
+7. Clone the Git repository: https://github.com/spring-projects/spring-petclinic
+8. Import the project as an existing Maven project into Eclipse
+9. Create a new run configuration for the main class: "org.springframework.samples.petclinic.PetClinicApplication" (no arguments)
+10. Run the new configuration and make sure that you can access http://localhost:8080
+11. Stop the application
+12. Install VirtualBox (old versions can cause issues)
+13. Install Vagrant
+14. Create a directory called "asgn0"
+15. Inside the directory, Create a Vagrantfile with these contents:
+
+```
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure("2") do |config|
+  # The most common configuration options are documented and commented below.
+  # For a complete reference, please see the online documentation at
+  # https://docs.vagrantup.com.
+
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://vagrantcloud.com/search.
+  config.vm.box = "ubuntu/xenial64"
+  config.vm.provision :shell, path: "provision.sh"
+  # Disable automatic box update checking. If you disable this, then
+  # boxes will only be checked for updates when the user runs
+  # `vagrant box outdated`. This is not recommended.
+  # config.vm.box_check_update = false
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine. In the example below,
+  # accessing "localhost:8080" will access port 80 on the guest machine.
+  # NOTE: This will enable public access to the opened port
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine and only allow access
+  # via 127.0.0.1 to disable public access
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+
+  # Create a private network, which allows host-only access to the machine
+  # using a specific IP.
+  # config.vm.network "private_network", ip: "192.168.33.10"
+
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  # config.vm.network "public_network"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  # config.vm.synced_folder "../data", "/vagrant_data"
+
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. These expose provider-specific options.
+  # Example for VirtualBox:
+  #
+  # config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  #   vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "1024"
+  # end
+  #
+  # View the documentation for the provider you are using for more
+  # information on available options.
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
+  # documentation for more information about their specific syntax and use.
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+  #   apt-get install -y apache2
+  # SHELL
+end
+```
+16. In the same directory as the Vagrantfile, create a "provision.sh" file with executable permissions and these contents:
+```
+# Set up a shared directory for logs
+mkdir /vagrant/logs
+
+# Update the package manager and install basics
+sudo apt-get update 
+sudo apt-get install -y software-properties-common
+sudo apt-get install -y python-software-properties
+sudo apt-get install -y add-apt-repository
+sudo apt-get install -y curl
+
+# Install ZeroTier
+curl -s 'https://raw.githubusercontent.com/zerotier/download.zerotier.com/master/htdocs/contact%40zerotier.com.gpg' | gpg --import && \
+if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
+sleep 5
+sudo zerotier-cli info > /vagrant/logs/zerotier-status.txt
+sudo zerotier-cli join 83048a063202620b
+
+# Install the JDK
+sudo apt-get install -y default-jdk
+java -version 2> /vagrant/logs/java-status.txt
+
+# Install Node
+sudo apt-get install -y nodejs
+nodejs -v > /vagrant/logs/node-status.txt
+
+# Install Docker
+sudo apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
+sudo docker run hello-world > /vagrant/logs/docker-status.txt
+```
+17. Start the VM with "vagrant up"
+18. When it finishes booting, "vagrant ssh" to access the VM
+19. Type "exit" to close the Vagrant SSH connection
+20. You should have a series of logs that were produced in "logs"
+21. Download the codegen.jar file attached to this assignment
+22. Create a new directory to hold the contents of a randomly generated Java web application
+23. Run the codegen.jar with the command "java -jar codegen.jar -d \<full path to the directory you created\>"
+24. Follow the instructions that print after the code generator finishes running (this will include installing and running JHipster)
+25. Submit a zip file with the following: 
+    1. a screenshot of the browser after it has loaded your XDropwizardApplication on http://localhost:9090
+    2. a screenshot of the browser after it has loaded your Spring Pet Clinic application on http://localhost:8080
+    3. a screenshot of both projects imported into Eclipse
+    4. the folder for the logs directory produced by Vagrant
+    5. a folder that contains the generated source for your JHipster application but DOES NOT INCLUDE the node_modules, .git, .gradle, or build directories,  (make sure that the .yo-rc.json file and the .jhipster folder).
+
 # Assignment 2
 
 ## Due Date
