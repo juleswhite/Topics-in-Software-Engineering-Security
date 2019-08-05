@@ -427,3 +427,54 @@ You should preference high-quality demonstrations with excellent documentation.
 
 
 # Final Project
+
+Your goal for the final project is to help improve cyber-security at
+Vanderbilt. Your project can be anything that requires substantial
+thought and work. Projects can be anything ranging from writing a new
+software tool to developing training materials to designing new
+security systems to performing a detailed analysis of something's
+security. 
+
+If the project requires significant work and thought related to
+security, even if it doesn't fit into one of the categories listed
+above, it can be approved by the instructor. The role of these
+examples is to help generate ideas and not constrain what you can
+do. The only hard requirement is that the instructor must approve the
+idea after your idea presentation. If the project does not meet the
+requirements, the instructor will ask you to change ideas.
+
+Whatever project that you choose, you must have good answers to the
+Heilmeier Questions:
+
+ * What are you trying to do? Articulate your objectives using
+      absolutely no jargon.
+  * How is it done today, and what are the limits of current
+      practice?
+  * What is new in your approach and why do you think it will be
+      successful?
+  * Who cares? If you are successful, what difference will it make?
+  * What are the risks?
+  * How much will it cost? If your approach isn't free, think
+      carefully about the cost to use or implement what you propose.
+  * How long will it take?
+  * What are the mid-term and final “exams” to check for success?
+
+The deliverables for your project are as follows:
+
+ 1. A presentation on your idea in the tenth sync session. Your presentation
+    should be 7-10mins long. Make sure and explain your project clearly and
+    answer the Heilmeier questions in the presentation. You should be prepared
+    to ask questions about other students' project ideas and answer questions
+    about your own project idea.
+ 1. A midterm presentation on your project to the class in your
+    twelth sync session.  In this presentation, you must explain how your
+    project is coming along and how it measures up using the midterm
+    exam criteria that you spelled out. 
+ 2. A final presentation on your project in the last sync session.  In
+    this presentation, you must explain how your project worked out
+    and how it measures up using the final exam criteria that
+    you spelled out.
+ 3. A final video that clearly explains your project, answers the
+    Heilmeier questions, and is targeted at the general public. 
+ 4. If you produce a software tool as part of your project, you
+    must demo it as part of your final presentation.
