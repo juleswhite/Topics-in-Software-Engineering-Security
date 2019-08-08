@@ -185,6 +185,8 @@ sudo docker run hello-world > /vagrant/logs/docker-status.txt
 
 # Assignment 2
 
+This assignment is not finalized and is likely to change before being released.
+
 ## Due Date
 
 This assignment is due five hours before the third live session.
@@ -258,6 +260,8 @@ You should preference high-quality demonstrations with excellent documentation.
 
 # Assignment 3
 
+This assignment is not finalized and is likely to change before being released.
+
 ## Due Date
 
 This assignment is due five hours before the sixth live session.
@@ -330,6 +334,8 @@ Each vulnerability demonstration will be assessed based on the following criteri
 You should preference high-quality demonstrations with excellent documentation.
 
 # Assignment 4
+
+This assignment is not finalized and is likely to change before being released.
 
 ## Due Date
 
