@@ -20,9 +20,7 @@ Log into Vanderbilt's YES system. Open the Chrome Developer Tools with View->Dev
 
 # Identity
 
-Perform an audit of Vanderbilt's YES application. What are the ways that it establishes identity? What are the inputs that it uses to represent identity?
-
-You can use Chrome's developer tools to perform this audit. Open YES and go to View->Developer->View Source to view the HTML source. Try searching for words like "id", your name, etc.
+Read how the OAuth 2.0 Authorization Grant (https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type) works and write a 2-3 paragraph description of how it works in your own words. 
 
 # Identify Software & Libraries in Use
 
