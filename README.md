@@ -13,7 +13,7 @@ There are no outside readings or lectures to watch.
 
 ### Assignment Value
 
-  1. Assignments 1-4 are equally weighted for 40% of your grade
+  1. Assignments 1-4 are equally weighted for 50% of your grade
   2. The Final Project is worth 30% of your grade
 
 ### Due Dates
