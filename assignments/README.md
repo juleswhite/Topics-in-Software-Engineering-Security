@@ -189,7 +189,7 @@ This assignment is not finalized and is likely to change before being released.
 
 ## Due Date
 
-This assignment is due five hours before the third live session.
+This assignment is due five hours before the fifth live session.
 
 ## Overview
 
@@ -264,7 +264,7 @@ This assignment is not finalized and is likely to change before being released.
 
 ## Due Date
 
-This assignment is due five hours before the sixth live session.
+This assignment is due five hours before the seventh live session.
 
 ## Overview
 
@@ -339,7 +339,7 @@ This assignment is not finalized and is likely to change before being released.
 
 ## Due Date
 
-This assignment is due five hours before the eighth live session.
+This assignment is due five hours before the ninth live session.
 
 ## Overview
 
