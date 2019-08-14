@@ -18,11 +18,7 @@ There are no outside readings or lectures to watch.
 
 ### Due Dates
 
-  1. Assignment 1 - Week 2
-  2. Assignment 2 - Week 4
-  3. Assignment 3 - Week 6
-  4. Assignment 4 - Week 8
-  5. Final Project - Week 13
+Please see: https://github.com/juleswhite/Topics-in-Software-Engineering-Security/tree/master/assignments
 
 ### Assignment Descriptions and Code
 
