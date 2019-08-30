@@ -5,7 +5,7 @@ Using news and Internet articles, find examples of real security incidents (e.g.
 
 # Identify Examples of Common Development Mistakes
 
-Using news and Internet articles, find examples of real security incidents (e.g., the Equifax data breach) for 5 different types of development mistakes. Once you have found a real-world security incident stemming from each type of mistake, write a 2-paragraph (or more if you choose) summary of the incident that describes what happened, specifies how that type of mistake manifested in the incident, and includes what the impact of the incident was.
+Using news and Internet articles, find examples of real security incidents (e.g., the Equifax data breach) for 4 different types of development mistakes. Once you have found a real-world security incident stemming from each type of mistake, write a 2-paragraph (or more if you choose) summary of the incident that describes what happened, specifies how that type of mistake manifested in the incident, and includes what the impact of the incident was.
 
 # Viewing HTTPS Certificate Details
 Find 3 websites that use HTTPS. On each website, using Google Chrome, click on the lock icon next to the "https" in the URL and view the certificate used to secure the connection with the website. For each website that you do this for, list the trust chain (e.g., signers) up to the root.
