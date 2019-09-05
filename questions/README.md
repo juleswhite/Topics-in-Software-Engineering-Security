@@ -34,13 +34,13 @@ Examine the NPM, Ruby, Java, Python, Go, or other libraries installed on your ma
 
 # Dependency Audit
 
-Your goal is to find an open source project that has at least one dependency with a CVE disclosure. Once you have found a project with a vulnerability in a dependency, submit a 2-3 paragraph description of the project, the dependency, and the vulnerability. Include a link to the project and the CVE.
+Your goal is to find an open source project, written in any language, that has at least one dependency with a CVE disclosure. Once you have found a project with a vulnerability in a dependency, submit a 2-3 paragraph description of the project, the dependency, and the vulnerability. Include a link to the project and the CVE.
 
 Alternatively, if you are unable to find a project with a dependency affected by a CVE, you can submit a list of 3 projects that you audited. For each project, provide a link to the project, a link to any  file(s) that specify dependencies, and a list of all dependencies / versions used by the project. You must choose projects that each have at least 10 dependencies.
 
 # Security Audit
 
-Pick an open source application and analyze the inputs that it receives. Create a catalog of these inputs (who, what, where, when) per the lectures. For each input, how would you sanitize it? Do you believe the input is passed on to other users or systems?  Who can provide each input and under what circumstances (don't forget to consider "anonymous" as an unauthenticated user). 
+Pick an open source application, written in any language, and analyze the inputs that it receives. Create a catalog of these inputs (who, what, where, when) per the lectures. For each input, how would you sanitize it? Do you believe the input is passed on to other users or systems?  Who can provide each input and under what circumstances (don't forget to consider "anonymous" as an unauthenticated user). 
 
 Your analysis should be done manually and based solely on what you can see visually in the user interface, source of the application, or network requests listed in Chrome Developer Tools. Do NOT run any automated tools against any services. Do NOT attempt to send malformed or malicious input to a system. Do NOT do anything to disrupt a running system. 
 
@@ -52,11 +52,11 @@ Analyze Vanderbilt's YES application. What are the core pieces of data that are 
 
 # Source Code Analysis
 
-Audit the source code and dependencies of an application that you wrote or an open source application. Provide a 6+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
+Audit the source code and dependencies of an application (any language) that you wrote or an open source application. Provide a 6+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
 
 # Source Code Analysis II
 
-Audit the source code, dependencies, and design of an application that you wrote or an open source application. Provide a 6+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
+Audit the source code, dependencies, and design of an application that you wrote (any language) or an open source application. Provide a 6+ paragraph description of how you performed the audit and what you found. If possible, include a link to the source code on GitHub, Box, Dropbox, etc. so that others can see what you analyzed.
 
 # Identifying Development Mistakes
 
