@@ -260,8 +260,12 @@ You should preference high-quality demonstrations with excellent documentation.
 
 # Assignment 3
 
-This assignment is not finalized and is likely to change before being released.
+## Due Date
 
+The assignment is due before the ninth live session. Please send your slides to the instructor at least two hours prior to the live session. 
+
+## Instructions
+Identify a piece of software, system, human process, set of instructions, etc. that you think demonstrates excellent design with respect to security. You do not have to restrict yourself to software. Prepare a 5-7min presentation on the system and an associated set of slides. Make sure and explain why the thing that you present demonstrates good security design and relate its design choices back to what is discussed in the course. Please send your slides to the instructor at least two hours prior to the live session. 
 
 # Assignment 4
 
