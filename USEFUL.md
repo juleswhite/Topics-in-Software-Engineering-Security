@@ -3,17 +3,17 @@ Useful changes to the Vagrantfile
 
 Change these in Vagrantfile:
 
-# Add a known address that we can get into the VM from
+\# Add a known address that we can get into the VM from
 config.vm.network "private_network", ip: "192.168.2.2"
-# Automatically deploy everything from ./deploy to /homne/vagrant/deploy on the guest
+\# Automatically deploy everything from ./deploy to /homne/vagrant/deploy on the guest
 config.vm.provision "file", source: "./deploy", destination: "/home/vagrant/deploy"
 
 Reload the changes:
-
 vagrant reload --provision
-Starting Vagrant
 
+Starting Vagrant
 vagrant up
+
 SSHing into Vagrant
 
 vagrant ssh
