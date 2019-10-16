@@ -114,6 +114,7 @@ List files and permissions
 ls -alt /home/vagrant
 Linux file permissions
 
+```
 drwxr-xr-x 4 vagrant vagrant 4096 Jun 20 20:02 .
 -rw------- 1 vagrant vagrant   65 Jun 20 20:02 .bash_history
 drwx------ 2 vagrant vagrant 4096 Jun 20 20:00 .ssh
@@ -122,6 +123,7 @@ drwxr-xr-x 4 root    root    4096 Jun 20 20:00 ..
 -rw-r--r-- 1 vagrant vagrant  220 Apr 11 08:32 .bash_logout
 -rw-r--r-- 1 vagrant vagrant 3771 Apr 11 08:32 .bashrc
 -rw-r--r-- 1 vagrant vagrant  655 Apr 11 08:32 .profile
+```
 
 [Is Dir?][Is Sym Link?][User Read][User Write][User Exec][Group Read][Group Write][Group Exec][Others Read][Others Write][Others Exec] [Ignore] [Owner] [Group]
 
