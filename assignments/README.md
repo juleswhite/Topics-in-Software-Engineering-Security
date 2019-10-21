@@ -269,7 +269,12 @@ Identify a piece of software, system, human process, set of instructions, etc. t
 
 # Assignment 4
 
-This assignment is not finalized and is likely to change before being released.
+## Due Date
+
+The assignment is due before the tenth live session. Please send your slides to the instructor at least two hours prior to the live session. 
+
+## Instructions
+Identify three security incidents where poor design played a role. Prepare a 5-7min presentation on the incidents, the associated design flaws (not implementation flaws), and design changes that would have prevented the problem. Prepare a set of slides to accompany your presentation. Make sure and explain why the things that you present demonstrate problems with design as opposed to implementation, deployment and confgiuration, usage, etc.. Please send your slides to the instructor at least two hours prior to the live session. 
 
 
 # Final Project
