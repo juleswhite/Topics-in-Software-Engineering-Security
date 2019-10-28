@@ -312,13 +312,12 @@ Heilmeier Questions:
 
 The deliverables for your project are as follows:
 
- 1. A presentation on your idea in the eleventh sync session. Your presentation
+ 1. You will deliver a presentation on your idea in the eleventh sync session. Your presentation
     should be ~5mins long. Make sure and explain your project clearly. You should be prepared
     to ask questions about other students' project ideas and answer questions
     about your own project idea.
- 2. A final presentation on your project in the last sync session.  In
-    this presentation.
- 3. A final video that clearly explains your project and is targeted 
-    at the general public. 
+ 2. You must present your project in at most 7mins in the last sync session.
+ 3. You will create final video (1-3mins) that clearly explains your project and is targeted 
+    at the general public
  4. If you produce a software tool as part of your project, you
     must demo it as part of your final presentation.
