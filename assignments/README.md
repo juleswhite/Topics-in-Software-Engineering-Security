@@ -312,20 +312,13 @@ Heilmeier Questions:
 
 The deliverables for your project are as follows:
 
- 1. A presentation on your idea in the tenth sync session. Your presentation
-    should be 7-10mins long. Make sure and explain your project clearly and
-    answer the Heilmeier questions in the presentation. You should be prepared
+ 1. A presentation on your idea in the eleventh sync session. Your presentation
+    should be ~5mins long. Make sure and explain your project clearly. You should be prepared
     to ask questions about other students' project ideas and answer questions
     about your own project idea.
- 1. A midterm presentation on your project to the class in your
-    twelth sync session.  In this presentation, you must explain how your
-    project is coming along and how it measures up using the midterm
-    exam criteria that you spelled out. 
  2. A final presentation on your project in the last sync session.  In
-    this presentation, you must explain how your project worked out
-    and how it measures up using the final exam criteria that
-    you spelled out.
- 3. A final video that clearly explains your project, answers the
-    Heilmeier questions, and is targeted at the general public. 
+    this presentation.
+ 3. A final video that clearly explains your project and is targeted 
+    at the general public. 
  4. If you produce a software tool as part of your project, you
     must demo it as part of your final presentation.
